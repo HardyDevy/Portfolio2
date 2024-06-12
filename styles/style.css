@@ -11,9 +11,6 @@
     opacity: 0 !important;
     transition: .3s linear !important;
 }
-.freeze{
-    filter: blur(3px);
-}
 
 body{
     height: 100vh; display: flex; flex-direction: column;
@@ -24,6 +21,7 @@ body{
     font-size: 24px;
     text-decoration: none;
     color: var(--text-color);
+    margin: 0;
 }
 
 p, a, h1, h2, h3{
@@ -215,11 +213,12 @@ button,.btnstyle{
     color: var(--dark-text-color);
     font-weight: 950;
     font-size: 28px;
+    cursor: pointer;
 }
 button:hover,.btnstyle:hover{
     transform: translate(4px, 4px);
     box-shadow: 2px 2px 0px var(--shadow-color);
-    transition: .3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: .3s linear all;
 }
 .noShadowbutton{
     box-shadow: none;
@@ -288,16 +287,16 @@ button:hover,.btnstyle:hover{
     flex-direction: column;
 }
 
-.about-textcontainer{
+.textcontainer{
     text-align: start;
     padding: 0 2rem;
 }
-.about-textcontainer h2{
+.textcontainer h2{
     font-style:italic;
     font-size: 56px;
     font-weight: 700;
 }
-.about-textcontainer p,a{
+.textcontainer p,a{
     font-weight: 600;
     font-style: normal;
     font-size:  32px;
@@ -306,7 +305,7 @@ button:hover,.btnstyle:hover{
     margin-bottom: 2rem;
     max-width: 80rem;
 }
-.about-textcontainer a{
+.textcontainer a{
     font-weight: 600;
     font-style: normal;
     font-size:  32px;
@@ -314,7 +313,7 @@ button:hover,.btnstyle:hover{
     text-decoration-color: var(--main-nav-color);
     text-decoration-thickness: 5px;
 }
-.about-imgcontainer{
+.container{
     display: flex;
     align-items: center;
     padding: 1.5rem;
@@ -346,17 +345,60 @@ form textarea{
     margin-bottom: 2rem;
 }
 
+.work-container-outer{
+    padding: 1.5rem;
+    margin: 2rem;
+    background-color: var(--projgrid-bg-color);
+    border: solid var(--shadow-color);
+    border-radius: 2rem;
+    border-width: 1px;
+    box-shadow: 10px 10px 0px var(--shadow-color);
+}
+.work-container-inner{
+    display: flex;
+    align-items: start;
+    max-width: 70vw;
+}
+.work-ImgContainer{
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+}
+.work-img{
+    max-height: 60rem;
+    margin: 2rem 1rem;
+    width:max-content;
+    height: auto;
+}
+.work-textcontainer{
+    max-width: 40rem;
+    padding-top: 2rem;
+    margin-top: 5rem;
+    position: sticky;
+    top: 3rem;
+    background-color: var(--projgrid-bg-color);
+    border: solid var(--shadow-color);
+    border-radius: 2rem;
+    border-width: 1px;
+}
+.otherProjects{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 2rem;
+}
+.arrows{
+    cursor: pointer;
+}
+
 .flexbox{
     display: flex;
     align-items: baseline;
 }
-
 .justifycenter{
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-
 .inactive{
     display: none;
 }

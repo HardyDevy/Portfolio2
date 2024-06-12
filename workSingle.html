@@ -17,7 +17,7 @@
     
   </head>
 
-<body>
+<body onload="openProjPage()">
   <main id="main">
     <div class="abovenavtext"><p>OPEN FOR FREELANCE PROJECTS 2024</p></div>
     <nav class="mainnav">
@@ -32,18 +32,17 @@
     </nav>
 
     <div class="flexbox justifycenter">
-      <div class="container" data-aos="fade-left" data-aos-duration="1250">
-        <img src="img/IMG_9611.jpg" class="hero-img"/>
-        <div class="textcontainer">
-          <h2>Hello There!</h2>
-          <p>Devon Hardy (he/him) is a New York-based designer currently working as a freelancer in the music industry. With experience at VIP Structures, Russett PR, SUNY Onondaga Community College, and more, he's developed professional skills in Graphic Design, PR, </br> Marketing, and Web Design.</p>
-          <p>Devon recieved his Bachelor of Science degree in Digital Arts and Sciences at Clarkson University (2023).</p>
-          <p>Devon works both publicly and privately under NDA. He is currently not under a non-compete, and does not accept contracts with a non-compete clause.</p>
-          <p>He believe that humor and self-expression have an important place in design!</p>
-          <a href="http://www.instagram.com/devyhaha">Check out more of his work: @devyhaha</a>
-          <p></p>
+      <div class="work-container-outer" data-aos="fade-left" data-aos-duration="1250">
+        <div class="work-container-inner">
+          <div class="work-ImgContainer" id="imagesHere"></div>
+          <div class="work-textcontainer textcontainer" id="textHere"></div>
+        </div>
+        <div class="otherProjects">
+          <a onclick="prevProjPage()" class="arrows"><i class="fa-solid fa-arrow-left"></i> Last Project </a>
+          <a onclick="nextProjPage()" class="arrows"> Next Project <i class="fa-solid fa-arrow-right"></i></a>
         </div>
       </div>
+
     </div>
     
   </main><!-- End #main -->

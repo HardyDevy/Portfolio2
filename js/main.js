@@ -1,21 +1,23 @@
+var projType = 0;
+var showProj = 0;
+
 //  Scroll Text Function
 window.addEventListener('scroll', function(ev) {
-
-    var scrollText = document.getElementById('scrollText')
-    var someDiv = document.getElementById('hero-belowmain');
-    var distanceToTop = someDiv.getBoundingClientRect().top;
-
-    if(distanceToTop < 1324){
-        scrollText.classList.add("hidden");
-    }
-    else{
-        scrollText.classList.remove("hidden");
+    
+    if(window.location.pathname === "/index.html"){
+        var scrollText = document.getElementById('scrollText')
+        var someDiv = document.getElementById('hero-belowmain');
+        var distanceToTop = someDiv.getBoundingClientRect().top;
+        if(distanceToTop < 1324){
+            scrollText.classList.add("hidden");
+        }
+        else{
+            scrollText.classList.remove("hidden");
+        }
     }
  });
 
 //  Update Project Grid Function
-let projType = 0;
-
 function updateProjType(int){
     let updateTo = int;
     let oldProjElement = document.getElementById(projType);
@@ -33,11 +35,71 @@ function displayProj(projtype){
     let fillHTML = '';
 
     for (i=0; i<numProjects; i++){
-        fillHTML += '<a class="projimgcontainer"><img class="projimg" src="' + projArray[projtype][i].file + '"/> </a>';
+        fillHTML += '<a class="projimgcontainer" href="workSingle.html" onclick="storeProject(' + i + ')"><img class="projimg" src="' + projArray[projtype][i].file + '"/> </a>';
     }
     currentProj.innerHTML = fillHTML;
 }
 
-function displayModal(){
-    document.getElementById("main").classList.add("freeze");
+// Work Showcase Page Function
+function storeProject(whichProj){
+    projIndex = whichProj;
+    localStorage.setItem("projIndexStorage", projIndex);
+    localStorage.setItem("projTypeStorage", projType);
+}
+
+function openProjPage(){
+    let projectType = localStorage.getItem("projTypeStorage");
+    let projectIndex =  localStorage.getItem("projIndexStorage");
+
+    let imgContainer = document.getElementById("imagesHere");
+    imgContainer.innerHTML = '<img src="' + projArray[projectType][projectIndex].file + '" class="work-img"/>';
+    
+    if (projArray[projectType][projectIndex].imgs != null){
+        for(i=0; i < (projArray[projectType][projectIndex].imgs).length; i++){
+            imgContainer.innerHTML += '<img src="' + projArray[projectType][projectIndex].imgs[i] + '" class="work-img"/>';
+        }
+    }
+
+    let textContainer = document.getElementById("textHere");
+    textContainer.innerHTML = projArray[projectType][projectIndex].Description;
+}
+
+function nextProjPage(){
+    let projectType = Number(localStorage.getItem("projTypeStorage"));
+    let projectIndex =  Number(localStorage.getItem("projIndexStorage"))
+
+    if (projectIndex + 1 <  projArray[projectType].length) {
+        projectIndex += 1;
+    }
+    else if (projectType + 1 <  projArray.length){
+        projectType += 1;
+        projectIndex = 0;
+    }
+    else{
+        projectType = 0;
+        projectIndex = 0;
+    }
+    localStorage.setItem("projIndexStorage", projectIndex);
+    localStorage.setItem("projTypeStorage", projectType);
+    openProjPage();
+}
+
+function prevProjPage(){
+    let projectType = Number(localStorage.getItem("projTypeStorage"));
+    let projectIndex =  Number(localStorage.getItem("projIndexStorage"))
+
+    if (projectIndex - 1 >  -1) {
+        projectIndex -= 1;
+    }
+    else if (projectType - 1 > -1){
+        projectType -= 1;
+        projectIndex = projArray[projectType].length - 1;
+    }
+    else{
+        projectType = projArray.length - 1;
+        projectIndex = projArray[projectType].length - 1;
+    }
+    localStorage.setItem("projIndexStorage", projectIndex);
+    localStorage.setItem("projTypeStorage", projectType);
+    openProjPage();
 }
