@@ -2,9 +2,8 @@ var projType = 0;
 var showProj = 0;
 
 //  Scroll Text Function
-window.addEventListener('scroll', function(ev) {
-    
-    if(window.location.pathname === "/index.html"){
+function scrollText(){    
+    window.addEventListener('scroll', function(ev) {
         var scrollText = document.getElementById('scrollText')
         var someDiv = document.getElementById('hero-belowmain');
         var distanceToTop = someDiv.getBoundingClientRect().top;
@@ -15,7 +14,7 @@ window.addEventListener('scroll', function(ev) {
             scrollText.classList.remove("hidden");
         }
     }
- });
+)};
 
 //  Update Project Grid Function
 function updateProjType(int){

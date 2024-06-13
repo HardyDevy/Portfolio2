@@ -352,26 +352,30 @@ form textarea{
     border: solid var(--shadow-color);
     border-radius: 2rem;
     border-width: 1px;
-    box-shadow: 10px 10px 0px var(--shadow-color);
+    min-height: 50%;
+    display: flex;
+    flex-direction: column;
 }
 .work-container-inner{
     display: flex;
     align-items: start;
-    max-width: 70vw;
+    max-width: 100rem;
 }
 .work-ImgContainer{
     border-radius: 0;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    max-width: 70%;
 }
 .work-img{
-    max-height: 60rem;
+    max-width: 50rem;
     margin: 2rem 1rem;
-    width:max-content;
+    width: max-content;
     height: auto;
 }
 .work-textcontainer{
-    max-width: 40rem;
+    max-width: 70rem;
     padding-top: 2rem;
     margin-top: 5rem;
     position: sticky;
