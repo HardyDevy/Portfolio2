@@ -60,7 +60,7 @@ function openProjPage(){
     }
 
     let textContainer = document.getElementById("textHere");
-    textContainer.innerHTML = projArray[projectType][projectIndex].Description;
+    textContainer.innerHTML = projArray[projectType][projectIndex].Description + '<hr> <div class="otherProjects"><a href="#projects" onclick="prevProjPage()" class="arrows"><i class="fa-solid fa-arrow-left"></i> Last Project </a> <a href="index.html#projnav" class="arrows">Back to All Projects</a> <a href="#projects" onclick="nextProjPage()" class="arrows"> Next Project <i class="fa-solid fa-arrow-right"></i></a></div>';;
 }
 
 function nextProjPage(){

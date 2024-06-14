@@ -84,6 +84,10 @@ nav div{
 .mainnav-directions > *{
     padding: 0 1rem;
 }
+.workNav{
+    padding: .5rem 10rem 0rem 10rem;
+}
+.workNav img{ max-height: 70px}
 .projnav{
     justify-content: space-around;
     margin: 9rem 20% .25rem 20%;
@@ -373,13 +377,14 @@ form textarea{
     max-width: 70%;
 }
 .work-img{
-    max-width: 50rem;
-    margin: 2rem 1rem;
+    max-width: 95%;
+    max-height: 80vh;
+    padding: .5rem 0 1rem 0;
     width: max-content;
     height: auto;
 }
 .work-textcontainer{
-    max-width: 70rem;
+    max-width: 40rem;
     padding-top: 2rem;
     margin-top: 5rem;
     position: sticky;
@@ -392,10 +397,11 @@ form textarea{
 .otherProjects{
     display: flex;
     justify-content: space-between;
-    margin: 1rem 2rem;
 }
 .arrows{
     cursor: pointer;
+    text-decoration: none !important;
+    font-size: 20px !important;
 }
 
 .flexbox{
@@ -510,4 +516,5 @@ form textarea{
     .work-container-outer{max-width: 90vw; margin: 1rem; padding: .5rem;}
     .work-ImgContainer{max-width:100%}
     .work-img{max-width:none; width: 100%;}
+    .otherProjects{flex-direction: column;}
 }
