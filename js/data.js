@@ -17,18 +17,26 @@ const posters = [
     {"file":'img/projects/musicposters/365-Day150-April20.jpeg',"Description":'<p>A commisioned piece for the band The Kiwis\' live show at The Finish Line</p>'},
     {"file":'img/projects/musicposters/NorthBloomReallyTinyTourPoster_TheTuaLingua.png',"Description":'<p>A commisioned piece for singer/songwriter NorthBloom\'s "Really Tiny Tour"</p>',"imgs":NorthBloom},
     {"file":'img/projects/musicposters/365-Day149-April19.jpeg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments based on albums/songs I\'ve been listening to</p>'},
+    {"file":'img/projects/musicposters/365-Day109-March6Large.jpeg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments based on albums/songs I\'ve been listening to</p>'},
+    {"file":'img/projects/musicposters/365-Day97-February16Large.jpeg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments based on albums/songs I\'ve been listening to</p>'},
+    {"file":'img/projects/musicposters/365-Day163-May15.jpg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments based on albums/songs I\'ve been listening to</p>'},
+    {"file":'img/projects/musicposters/365-Day94-February6Large.jpeg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments based on albums/songs I\'ve been listening to</p>'},
     {"file":'img/projects/musicposters/365-Day40-November27Large.jpeg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments based on albums/songs I\'ve been listening to</p>'},
     {"file":'img/projects/musicposters/365-Day15-Nov2Large.jpeg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments based on albums/songs I\'ve been listening to</p>'},
-    {"file":'img/projects/musicposters/365-Day109-March6Large.jpeg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments based on albums/songs I\'ve been listening to</p>'},
+    {"file":'img/projects/musicposters/365-Day157-May1.jpg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments based on albums/songs I\'ve been listening to</p>'},
+    {"file":'img/projects/musicposters/365-Day93-February5Large.jpeg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments based on albums/songs I\'ve been listening to</p>'},
+    {"file":'img/projects/musicposters/365-Day64-January7.png',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments based on albums/songs I\'ve been listening to</p>'},
     {"file":'img/projects/musicposters/365-Day110-March7Large.jpeg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments based on albums/songs I\'ve been listening to</p>'},
     {"file":'img/projects/musicposters/365-Day50-December7Large.jpeg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments based on albums/songs I\'ve been listening to</p>'},
     {"file":'img/projects/musicposters/365-Day118-March15.jpeg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments based on albums/songs I\'ve been listening to</p>'},
+    // {"file":'',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments based on albums/songs I\'ve been listening to</p>'},
 ]
 
 const merch = [
-    {"file":'img/projects/merch/GreerMockupBACK.png',"Description":'<p>A piece from a collection of original merchandise based on albums/songs I\'ve been listening to</p>',"imgs":Greer},
+    {"file":'img/projects/merch/BillieEilishMockup.png',"Description":'<p>A piece from a collection of original merchandise based on albums/songs I\'ve been listening to</p>'},
     {"file":'img/projects/merch/TheLastDinnerPartyMockupCOLOR-FRONT.png',"Description":'<p>A piece from a collection of original merchandise based on albums/songs I\'ve been listening to</p>',"imgs":TheLastDinnerParty},
     {"file":'img/projects/merch/GoldenKnightTennisLogo.png',"Description":'<p>Merchandise I created for Clarkson University\'s Tennis Club</p>',"imgs":GoldenKnight},
+    {"file":'img/projects/merch/GreerMockupBACK.png',"Description":'<p>A piece from a collection of original merchandise based on albums/songs I\'ve been listening to</p>',"imgs":Greer},
 ]
 
 const branding = [
