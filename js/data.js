@@ -9,6 +9,7 @@ const VIPStructures = ['img/projects/branding/VIPStructures/2023SummerInternscop
 const Capstone = ['img/projects/Other/Capstone/HeroCapstoneImage.jpeg','img/projects/Other/Capstone/thosewhocareposterIRL copy2.jpeg','img/projects/Other/Capstone/ThoseWhoCarePosterN.jpeg','img/projects/Other/Capstone/ThoseWhoCareAlbumCover.jpeg','img/projects/Other/Capstone/ThoseWhoCareAlbumCover copy.jpeg','img/projects/Other/Capstone/ThoseWhoCareAlbumCoverBACK.jpeg','img/projects/Other/Capstone/IRLThoseWhoCareBusinessCard.jpg','img/projects/Other/Capstone/ThoseWhoCare_BusinessCard_front copy.jpeg','img/projects/Other/Capstone/SoundsOfDaylightIRLPoster.jpg','img/projects/Other/Capstone/SoundOfDaylightPoster.jpeg','img/projects/Other/Capstone/SoundsOfDaylightAlbumCover.jpeg','img/projects/Other/Capstone/moreSoundOfDaylightAlbumCovers copy.jpeg','img/projects/Other/Capstone/SoundOfDaylightAlbumCoverBACK copy.jpeg','img/projects/Other/Capstone/IRLSoundOfDaylightBusinessCard.jpg','img/projects/Other/Capstone/SoundOfDaylight_BusinessCard_front copy.jpeg','img/projects/Other/Capstone/RearviewIRLPoster.jpg','img/projects/Other/Capstone/Rearview_Poster.jpeg','img/projects/Other/Capstone/RearviewAlbumCover.jpeg','img/projects/Other/Capstone/Rearview_AlbumCover-73 copy.jpeg','img/projects/Other/Capstone/Rearview_AlbumCover-72 copy.jpeg','img/projects/Other/Capstone/IRLRearviewBusinessCard.jpg','img/projects/Other/Capstone/Rearview_BusinessCard_front copy.jpeg']
 const NorthBloom = ['img/projects/musicposters/NorthBloom ReallyTinyTour Poster v2 copy.jpg','img/projects/musicposters/NorthBloom ReallyTinyTour Poster.jpg']
 const RussettPR = ['img/projects/branding/russettpr/Hardy PDF Portfolio-11 copy.png','img/projects/branding/russettpr/Hardy PDF Portfolio-12 copy.png','img/projects/branding/russettpr/Hardy PDF Portfolio-13 copy.png','img/projects/branding/russettpr/Hardy PDF Portfolio-14 copy.png','img/projects/branding/russettpr/Hardy PDF Portfolio-15 copy.png','img/projects/branding/russettpr/HardyPDFPortfolio-11copy.png','img/projects/branding/russettpr/HardyPDFPortfolio-12copy.png','img/projects/branding/russettpr/HardyPDFPortfolio-13copy.png','img/projects/branding/russettpr/HardyPDFPortfolio-14copy.png','img/projects/branding/russettpr/HardyPDFPortfolio-15copy.png']
+const BillieEilish = ['img/projects/merch/Billie Eilish Tee Yellow Text Blue Shirt.jpg','img/projects/merch/Billie Eilish Tee White Text Blue Shirt.jpg']
 // const  = ['']
 
 
@@ -33,10 +34,11 @@ const posters = [
 ]
 
 const merch = [
-    {"file":'img/projects/merch/BillieEilishMockup.png',"Description":'<p>A piece from a collection of original merchandise based on albums/songs I\'ve been listening to</p>'},
-    {"file":'img/projects/merch/TheLastDinnerPartyMockupCOLOR-FRONT.png',"Description":'<p>A piece from a collection of original merchandise based on albums/songs I\'ve been listening to</p>',"imgs":TheLastDinnerParty},
-    {"file":'img/projects/merch/GoldenKnightTennisLogo.png',"Description":'<p>Merchandise I created for Clarkson University\'s Tennis Club</p>',"imgs":GoldenKnight},
+    {"file":'img/projects/merch/BillieEilishMockup.png',"Description":'<p>A piece from a collection of original merchandise based on albums/songs I\'ve been listening to</p>',"imgs":BillieEilish},
     {"file":'img/projects/merch/GreerMockupBACK.png',"Description":'<p>A piece from a collection of original merchandise based on albums/songs I\'ve been listening to</p>',"imgs":Greer},
+    {"file":'img/projects/merch/GoldenKnightTennisLogo.png',"Description":'<p>Merchandise I created for Clarkson University\'s Tennis Club</p>',"imgs":GoldenKnight},
+    {"file":'img/projects/merch/JalenNgondaMockup.png',"Description":'<p>A piece from a collection of original merchandise based on albums/songs I\'ve been listening to</p>'},
+    {"file":'img/projects/merch/TheLastDinnerPartyMockupCOLOR-FRONT.png',"Description":'<p>A piece from a collection of original merchandise based on albums/songs I\'ve been listening to</p>',"imgs":TheLastDinnerParty},
 ]
 
 const branding = [
