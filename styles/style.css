@@ -241,7 +241,7 @@ button:hover,.btnstyle:hover{
 }
 
 .projimg{
-    padding: .5rem;
+    /* padding: .5rem; */
 }
 .projimg:hover{
     transform: scale(105%);
