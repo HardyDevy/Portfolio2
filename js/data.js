@@ -31,11 +31,11 @@ const posters = [
 
 const merch = [
     {"file":'img/projects/merch/Capstone/capstonethumbnail.jpg',"Description":'<p>In my senior capstone project at Clarkson University, I crafted branding for a fictional record label and three bands.</p><p> I designed logos, business cards, posters, and album covers, before bringing these designs to life in physical form.</p>',"imgs":Capstone},
-    {"file":'img/projects/merch/BillieEilishMockup.png',"Description":'<p>A piece from a collection of original merchandise based on albums/songs I\'ve been listening to</p>',"imgs":BillieEilish},
-    {"file":'img/projects/merch/GreerMockupBACK.png',"Description":'<p>A piece from a collection of original merchandise based on albums/songs I\'ve been listening to</p>',"imgs":Greer},
-    {"file":'img/projects/merch/GoldenKnightTennisLogo.png',"Description":'<p>Merchandise I created for Clarkson University\'s Tennis Club</p>',"imgs":GoldenKnight},
     {"file":'img/projects/merch/JalenNgondaMockup.png',"Description":'<p>A piece from a collection of original merchandise based on albums/songs I\'ve been listening to</p>'},
+    {"file":'img/projects/merch/GoldenKnightTennisLogo.png',"Description":'<p>Merchandise I created for Clarkson University\'s Tennis Club</p>',"imgs":GoldenKnight},
+    {"file":'img/projects/merch/BillieEilishMockup.png',"Description":'<p>A piece from a collection of original merchandise based on albums/songs I\'ve been listening to</p>',"imgs":BillieEilish},
     {"file":'img/projects/merch/TheLastDinnerPartyMockupCOLOR-FRONT.png',"Description":'<p>A piece from a collection of original merchandise based on albums/songs I\'ve been listening to</p>',"imgs":TheLastDinnerParty},
+    {"file":'img/projects/merch/GreerMockupBACK.png',"Description":'<p>A piece from a collection of original merchandise based on albums/songs I\'ve been listening to</p>',"imgs":Greer},
 ]
 
 const branding = [
