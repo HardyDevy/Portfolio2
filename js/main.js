@@ -55,12 +55,16 @@ function openProjPage(){
     
     if (projArray[projectType][projectIndex].imgs != null){
         for(i=0; i < (projArray[projectType][projectIndex].imgs).length; i++){
-            imgContainer.innerHTML += '<img src="' + projArray[projectType][projectIndex].imgs[i] + '" class="work-img"/>';
+            if(projArray[projectType][projectIndex].imgs[i].includes(".mp4")){
+                imgContainer.innerHTML += '<video width="95%" height="auto" autoplay loop> <source src="' + projArray[projectType][projectIndex].imgs[i] + '" type="video/mp4"> Your browser does not support the video tag." class="work-vid"/></video> ';
+            }
+            else
+                imgContainer.innerHTML += '<img src="' + projArray[projectType][projectIndex].imgs[i] + '" class="work-img"/>';
         }
     }
 
     let textContainer = document.getElementById("textHere");
-    textContainer.innerHTML = projArray[projectType][projectIndex].Description + '<hr> <div class="otherProjects"><a href="#projects" onclick="prevProjPage()" class="arrows"><i class="fa-solid fa-arrow-left"></i> Last Project </a> <a href="index.html#projnav" class="arrows">Back to All Projects</a> <a href="#projects" onclick="nextProjPage()" class="arrows"> Next Project <i class="fa-solid fa-arrow-right"></i></a></div>';;
+    textContainer.innerHTML = projArray[projectType][projectIndex].Description + '<hr> <div class="otherProjects"><a href="#projects" onclick="prevProjPage()" class="arrows"><i class="fa-solid fa-arrow-left"></i> Last Project </a> <a href="index.html#projnav" class="arrows">Back to All Projects</a> <a href="#projects" onclick="nextProjPage()" class="arrows"> Next Project <i class="fa-solid fa-arrow-right"></i></a></div>';
 }
 
 function nextProjPage(){

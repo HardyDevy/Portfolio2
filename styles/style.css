@@ -374,11 +374,18 @@ form textarea{
     max-width: 70%;
 }
 .work-img{
-    max-width: 95%;
+    max-width: 45vw;
     max-height: 80vh;
-    padding: .5rem 0 1rem 0;
-    width: max-content;
+    padding: 2rem 1rem;
+    width: auto;
     height: auto;
+}
+.work-vid{
+    max-width: 45vw;
+    max-height: 80vh;
+    width: auto;
+    height: auto;
+    
 }
 .work-textcontainer{
     max-width: 40rem;
