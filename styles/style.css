@@ -351,7 +351,7 @@ form textarea{
 }
 
 .work-container-outer{
-    padding: 1.5rem;
+    padding: 2rem;
     margin: 2rem;
     background-color: var(--projgrid-bg-color);
     border: solid var(--shadow-color);
@@ -364,7 +364,7 @@ form textarea{
 .work-container-inner{
     display: flex;
     align-items: start;
-    max-width: 100rem;
+    /* max-width: 100rem; */
 }
 .work-ImgContainer{
     border-radius: 0;

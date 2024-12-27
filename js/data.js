@@ -32,19 +32,19 @@ const posters = [
 
 const merch = [
     {"file":'img/projects/merch/Capstone/capstonethumbnail.jpg',"Description":'<p>In my senior capstone project at Clarkson University, I crafted branding for a fictional record label and three bands.</p><p> I designed logos, business cards, posters, and album covers, before bringing these designs to life in physical form.</p>',"imgs":Capstone},
-    {"file":'img/projects/merch/JalenNgondaMockup.png',"Description":'<p>A piece from a collection of original merchandise based on albums/songs I\'ve been listening to</p>'},
+    {"file":'img/projects/merch/JalenNgondaMockup.png',"Description":'<p>A piece of original merchandise created for Jalen Ngonda\'s album \"Come Around and Love Me\"</p>'},
     {"file":'img/projects/merch/GoldenKnightTennisLogo.png',"Description":'<p>Commisioned merchandise created for Clarkson University\'s Tennis Club</p>',"imgs":GoldenKnight},
-    {"file":'img/projects/merch/GreerMockupBACK.png',"Description":'<p>A piece from a collection of original merchandise based on albums/songs I\'ve been listening to</p>',"imgs":Greer},
-    {"file":'img/projects/merch/TheLastDinnerPartyMockupCOLOR-FRONT.png',"Description":'<p>A piece from a collection of original merchandise based on albums/songs I\'ve been listening to</p>',"imgs":TheLastDinnerParty},
-    {"file":'img/projects/merch/BillieEilishMockup.png',"Description":'<p>A piece from a collection of original merchandise based on albums/songs I\'ve been listening to</p>',"imgs":BillieEilish},
+    {"file":'img/projects/merch/GreerMockupBACK.png',"Description":'<p>A piece of original merchandise based on Greer\'s EP \"Happy People\"</p>',"imgs":Greer},
+    {"file":'img/projects/merch/TheLastDinnerPartyMockupCOLOR-FRONT.png',"Description":'<p>A piece of original merchandise based on The Last Dinner Party\'s album \"Prelude To Ecstasy\"</p>',"imgs":TheLastDinnerParty},
+    {"file":'img/projects/merch/BillieEilishMockup.png',"Description":'<p>A piece of original merchandise based on Billie Eilish\'s album \"Hit Me Hard and Soft\"</p>',"imgs":BillieEilish},
 ]
 
 const branding = [
     {"file":'img/projects/branding/MoltenMetal/MoltenMetalofNYThumbnail.jpg',"Description":'<p>Logo and Website developed for a client </p><p> Owned by Greg Myka, Molten Metal of NY handcrafts personalized one-of-a-kind artwork, using repurposed objects, and by cutting, shaping, and transforming metal and wood. This logo and branding was created to express this unique business.<p>',"imgs":MoltenMetal},
     {"file":'img/projects/branding/CommunityBank/Thumbnail.jpg',"Description":'<p>A Selection of work from my time as a Marketing Associate at Community Bank NA</p><p>• Designed infographs, advertisements, and ohter media for internal and external use </p><p>• Created Motion Graphics for ATM Screens, advertisements shown during Syracuse Crunch hockey matches, and more </p><p>• Developed Community Bank\'s Financial Literacy lesson plans to teach individuals of any age the importance of money and banking</p>',"imgs":CommunityBank},
     {"file":'img/projects/branding/BebasBubble/BebasBubbleThumbnail.png',"Description":'<p>Logo and Packaging for fictional hard seltzer brand, "Bebas Neue", developed as a conceptual project</p>',"imgs":BebasBubble},
-    {"file":'img/projects/branding/VIPStructures/Vipstructurescopy.jpg',"Description":'<p>• Created ads and social media posts for VIP Structures and associated companies </p><p>• Designed emails for internal use </p><p>• Updated and maintained multiple websites </p><p>• Researched general marketing trends in the industry and built the grounds for VIP’s future marketing plans</p>',"imgs":VIPStructures},
-    {"file":'img/projects/branding/russettpr/russettprchristmas.png',"Description":'<p> Crafted social media posts, advertisements, and infographics for both Russett PR and its clients while working closely with the PR department to plan photo shoots and other events</p>',"imgs":RussettPR},
+    {"file":'img/projects/branding/VIPStructures/Vipstructurescopy.jpg',"Description":'<p>A Selection of work from my time as a Marketing Associate at VIP Structures</p><p>• Created ads and social media posts for VIP Structures and associated companies </p><p>• Designed emails for internal use </p><p>• Updated and maintained multiple websites </p><p>• Researched general marketing trends in the industry and built the grounds for VIP’s future marketing plans</p>',"imgs":VIPStructures},
+    {"file":'img/projects/branding/russettpr/russettprchristmas.png',"Description":'<p>A Selection of work from my time as a Marketing Associate at Russett PR</p><p>Crafted social media posts, advertisements, and infographics for both Russett PR and its clients while working closely with the PR department to plan photo shoots and other events</p>',"imgs":RussettPR},
 ]
 
 const otherProjects = [
@@ -58,7 +58,7 @@ const otherProjects = [
     {"file":'img/projects/Other/365posters/365-Day156-April30.jpg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments done daily for 365 days</p>'},
     {"file":'img/projects/Other/365posters/365-Day147-April17.jpeg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments done daily for 365 days</p>'},
     {"file":'img/projects/Other/365posters/365-Day53-December10Large.jpeg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments done daily for 365 days</p>'},
-    {"file":'img/projects/Other/365posters/365-Day135-April5.jpeg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments done daily for 365 days</p>'},
+    {"file":'img/projects/Other/365posters/365-Day198-July7.jpg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments done daily for 365 days</p>'},
     {"file":'img/projects/Other/365posters/365-Day102-February21Large.jpeg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments done daily for 365 days</p>'},
 ]
 
