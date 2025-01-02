@@ -80,7 +80,7 @@ nav div{
     align-items: center;
     width: 50%;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 28px;
 }
 .mainnav-directions > a{
     padding: 0 1rem 0 .5rem;
@@ -92,7 +92,8 @@ nav div{
 .workNav{
     padding: .5rem 10rem 0rem 10rem;
 }
-.workNav img{ max-height: 70px}
+
+.workNav img{ max-height: 4rem}
 .projnav{
     justify-content: space-around;
     margin: 9rem 20% .25rem 20%;
@@ -128,17 +129,19 @@ nav div{
     margin-top: 1rem;
 }
 .hero-textcontainer{
-    text-align: center;
-    margin-right: 1.5rem;
+    text-align: start;
+    max-width: 60%;
+}
+.hero-textcontainer > *{
+    padding-top: 2rem;
 }
 .hero-textTitle{
-    font-weight: 950;
-    font-style: italic;
+    font-family: amandine, sans-serif;
+    font-weight: 700;
     font-size: 132px;
     line-height: 100%;
 }
 .hero-textSubtitle{
-    font-family: "barlow-condensed", sans-serif;
     font-weight: 700;
     font-style: normal;
     font-size: 32px;
@@ -151,8 +154,7 @@ nav div{
 .hero-text{
     font-weight: 700;
     font-style: normal;
-    font-size:  42px;
-    margin-top: 1rem;
+    font-size:  24px;
 }
 .hero-imgcontainer{
     padding: 1.5rem;
@@ -215,6 +217,9 @@ footer{
 footer > *{
     margin: .25rem 0;
 }
+footer > p {
+    font-size: 18px;
+}
 
 button,.btnstyle{
     padding: 1rem 2.5rem;
@@ -233,9 +238,11 @@ button:hover,.btnstyle:hover{
     box-shadow: 2px 2px 0px var(--shadow-color);
     transition: .3s linear all;
 }
+.hireMe{
+    padding-top: 2rem;
+}
 .noShadowbutton{
     box-shadow: none;
-    margin: 2rem;
     padding: 1rem 10rem;
 }
 .noShadowbutton:hover{
@@ -309,7 +316,6 @@ button:hover,.btnstyle:hover{
 .textcontainer p,a{
     font-weight: 600;
     font-style: normal;
-    font-size:  32px;
     line-height: 140%;
     margin-top: .5rem;
     margin-bottom: 2rem;
@@ -356,7 +362,7 @@ form textarea{
 }
 
 .work-container-outer{
-    padding: 2rem;
+    padding: 0rem 2rem .5rem 2rem;
     margin: 2rem;
     background-color: var(--projgrid-bg-color);
     border: solid var(--shadow-color);
@@ -425,6 +431,7 @@ form textarea{
 .inactive{
     display: none;
 }
+
 @media (max-width: 2200px) {
     .mainnav{
         padding: .5rem 1rem;
@@ -435,11 +442,11 @@ form textarea{
     .hero-main{
         padding: 2rem;}
     .hero-textTitle{
-        font-size: 92px;}
+        font-size: 80px;}
     .hero-textSubtitle{
         font-size: 24px;}
     .hero-text{
-        font-size: 32px;}
+        font-size: 24px;}
     .hero-img{
         max-height: 35rem;}
 }
@@ -452,11 +459,11 @@ form textarea{
     .hero-main{
         padding: 2rem;}
     .hero-textTitle{
-        font-size: 92px;}
+        font-size: 80px;}
     .hero-textSubtitle{
-        font-size: 24px;}
+        font-size: 18px;}
     .hero-text{
-        font-size: 32px;}
+        font-size: 24px;}
     .hero-img{
         max-height: 30rem;}
     .projnav{
@@ -473,6 +480,12 @@ form textarea{
     }
     .textcontainer p, a{
         margin-bottom: .75rem;
+    }
+    .workNav{
+        max-height: 3rem;
+        }
+    .workNav > .mainnav-logo > a > img{
+        height: 75%;
     }
 }
 
@@ -506,6 +519,10 @@ form textarea{
     }
     .hero{height: auto; margin-bottom: 8rem;}
     .hero-main{flex-direction: column;padding: 4rem;margin: auto 0;}
+    .hero-textcontainer{
+        text-align: center;
+        max-width: 1000%;
+    }
     .projnav{
         margin: 0 1rem;
     }
@@ -555,4 +572,8 @@ form textarea{
     .work-ImgContainer{max-width:100%}
     .work-img{max-width:none; width: 100%;}
     .otherProjects{flex-direction: column;}
+}
+
+@media (min-width: 2200px) {
+    
 }
