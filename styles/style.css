@@ -131,6 +131,7 @@ nav div{
 .hero-textcontainer{
     text-align: start;
     max-width: 60%;
+    padding-right: .5rem;
 }
 .hero-textcontainer > *{
     padding-top: 2rem;
