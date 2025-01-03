@@ -364,6 +364,8 @@ button:hover,.btnstyle:hover{
 }
 .contactText{
     margin: 2rem;
+    font-weight: 400;
+    font-size: 32px;
 }
 form *{
     font-family: "neue-haas-grotesk-display", Arial, Helvetica, sans-serif;
