@@ -13,6 +13,7 @@ const MidnightKisses = ['img/projects/merch/MidnightKisses/Midnight Kisses Signa
 const NorthBloom = ['img/projects/musicposters/NorthBloom ReallyTinyTour Poster v2 copy.jpg','img/projects/musicposters/NorthBloomReallyTinyTourPoster_TheTuaLingua.png']
 const RussettPR = ['img/projects/branding/russettpr/Hardy PDF Portfolio-11 copy.png','img/projects/branding/russettpr/Hardy PDF Portfolio-12 copy.png','img/projects/branding/russettpr/Hardy PDF Portfolio-13 copy.png','img/projects/branding/russettpr/Hardy PDF Portfolio-14 copy.png','img/projects/branding/russettpr/Hardy PDF Portfolio-15 copy.png']
 const BillieEilish = ['img/projects/merch/Billie Eilish Tee Yellow Text Blue Shirt.jpg','img/projects/merch/Billie Eilish Tee White Text Blue Shirt.jpg']
+const JalenNgonda = ['img/projects/merch/JalenNgondaMockup_Closeup.jpg','img/projects/merch/JalenNgondaDesign_Closeup.jpg']
 // const  = ['']
 
 
@@ -34,7 +35,7 @@ const posters = [
 
 const merch = [
     {"file":'img/projects/merch/MidnightKisses/Midnight Kisses_showcase.png',"Description":'<p>A commisioned piece for singer/songwriter Amanda Chloe\'s new song "Midnight Kisses"</p>',"imgs":MidnightKisses},
-    {"file":'img/projects/merch/JalenNgondaMockup.png',"Description":'<p>A piece of original merchandise created for Jalen Ngonda\'s album \"Come Around and Love Me\"</p>'},
+    {"file":'img/projects/merch/JalenNgondaMockup.png',"Description":'<p>A piece of original merchandise created for Jalen Ngonda\'s album \"Come Around and Love Me\"</p>',"imgs":JalenNgonda},
     {"file":'img/projects/merch/Capstone/capstonethumbnail.jpg',"Description":'<p>In my senior capstone project at Clarkson University, I crafted branding for a fictional record label and three bands.</p><p> I designed logos, business cards, posters, and album covers, before bringing these designs to life in physical form.</p>',"imgs":Capstone},
     {"file":'img/projects/merch/GoldenKnightTennisLogo.png',"Description":'<p>Commisioned merchandise created for Clarkson University\'s Tennis Club</p>',"imgs":GoldenKnight},
     {"file":'img/projects/merch/GreerMockupBACK.png',"Description":'<p>A piece of original merchandise based on Greer\'s EP \"Happy People\"</p>',"imgs":Greer},
