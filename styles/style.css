@@ -347,23 +347,41 @@ button:hover,.btnstyle:hover{
 }
 
 .contact-container{
-    display: grid;
+    display: flex;
+    text-align: start;
     padding: 1.5rem;
     padding-bottom: 3rem;
-    margin: 5% 2rem 2rem 2rem;
+    margin: 1rem 2rem 2rem 2rem;
     background-color: var(--projgrid-bg-color);
     border: solid var(--shadow-color);
     border-radius: 2rem;
     border-width: 1px;
     box-shadow: 10px 10px 0px var(--shadow-color);
 }
+.contactTitle{
+    padding: 3rem 0 .5rem 0;
+    font-size: 104px;
+}
+.contactText{
+    margin: 2rem;
+}
 form *{
-    padding: 1rem 4rem 1rem .25rem;
-    margin: 1rem;
+    font-family: "neue-haas-grotesk-display", Arial, Helvetica, sans-serif;
+    padding: 1rem 10rem 1rem .25rem;
+    margin: .5rem 1rem 2rem ;
+}
+form > p{
+    padding: .5rem 0 0 1rem;
+    margin: 0;
+    font-size: 18px;
 }
 form textarea{
-    padding: 1rem 30rem 4rem .25rem;
+    padding: 1rem 30rem 1rem .25rem;
     margin-bottom: 2rem;
+}
+form > button{
+    width: 100%;
+    margin: 0;
 }
 
 .work-container-outer{
@@ -427,6 +445,10 @@ form textarea{
 .flexbox{
     display: flex;
     align-items: baseline;
+}
+.flexbox-column{
+    display: flex;
+    flex-direction: column;
 }
 .justifycenter{
     justify-content: center;
