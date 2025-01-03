@@ -173,6 +173,17 @@ nav div{
     max-height: 50rem;
     border-radius: 1.5rem;
 }
+.hero-socialIcons{
+    color: black;
+    height: 100%;
+    display: flex;
+    font-size: 40px;
+    padding: 0;
+}
+.hero-socialIcons a{
+    margin: 0 1rem 0 0 !important;
+    padding: 0;
+}
 
 .scrollTextContainer{
     position: fixed;     
@@ -349,7 +360,7 @@ button:hover,.btnstyle:hover{
 .contact-container{
     display: flex;
     text-align: start;
-    padding: 1.5rem;
+    padding: 2.5rem;
     padding-bottom: 3rem;
     margin: 1rem 2rem 2rem 2rem;
     background-color: var(--projgrid-bg-color);
@@ -369,16 +380,20 @@ button:hover,.btnstyle:hover{
 }
 form *{
     font-family: "neue-haas-grotesk-display", Arial, Helvetica, sans-serif;
-    padding: 1rem 10rem 1rem .25rem;
+    font-size: 14px;
+    padding: 1rem .25rem 1rem .25rem;
     margin: .5rem 1rem 2rem ;
+    width: 60%;
 }
 form > p{
     padding: .5rem 0 0 1rem;
     margin: 0;
     font-size: 18px;
+    width: auto;
 }
 form textarea{
-    padding: 1rem 30rem 1rem .25rem;
+    width: 90%;
+    padding: 1rem .25rem 1rem .25rem;
     margin-bottom: 2rem;
 }
 form > button{
@@ -475,7 +490,7 @@ form > button{
     .hero-textSubtitle{
         font-size: 24px;}
     .hero-text{
-        font-size: 24px;}
+        font-size: 28px;}
     .hero-img{
         max-height: 35rem;}
 }
@@ -519,9 +534,6 @@ form > button{
 }
 
 @media (max-width: 1358px) {
-    .abovenavtext{
-        display: none;
-    }
     .mainnav-logo{
         max-height: 5rem;
     }
@@ -600,7 +612,9 @@ form > button{
         width: auto;
     }
     .hero{margin: 0;}
+    .hero-textTitle{font-size: 45px;}
     .hero-belowmain{display: none;}
+    .hero-socialIcons{justify-content: center; padding: 1.5rem;}
     .projgridcontainer{
         margin: 2rem 1rem;
         box-shadow: none;
@@ -630,10 +644,16 @@ form > button{
     .textcontainer a{
         font-size: 30px;
         padding-top: 1rem;
-        text-align: start;
+    }
+    form > button{
+        width: 90%;
+        padding: 1rem 0 !important;
+        margin: 1rem;
+        text-align: center;
     }
 }
 
 @media (min-width: 2200px) {
-    
+    .hero-text{
+        font-size: 35px;}
 }

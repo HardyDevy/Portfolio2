@@ -39,16 +39,31 @@
           <form action="https://formsubmit.co/dghardy2020@gmail.com" method="POST">
             <p>Name (Required)</p>
             <input type="text" name="name" required> <br/>
+            
             <p>Email Address (Required)</p>
             <input type="email" name="email" required> <br/>
+            
             <p>Tell me about your project / business (Required)</p>
             <textarea name="Project"></textarea required> <br/>
+
             <p>Estimated Timeframe (Required)</p>
-            <textarea name="Timefram"></textarea required> <br/>
+            <select name="Time Frame">
+              <option>2-4 weeks</option>
+              <option>1-2 months</option>
+              <option>> 2 months</option>
+            </select> <br/>
+            
             <p>Estimated Budget (Required)</p>
-            <textarea name="Budget"></textarea required> <br/>
-            <p>Where did you hear about me?</p>
+            <select name="Budget">
+              <option>< $200 </option>
+              <option selected>$200 - $500</option>
+              <option>$500 - $1500</option>
+              <option>> $1500</option>
+            </select> <br/>
+            
+              <p>Where did you hear about me?</p>
             <textarea name="Find Me"></textarea> <br/>
+            
             <button type="submit" class="noShadowbutton">Send</button>
           </form>
       </div>
