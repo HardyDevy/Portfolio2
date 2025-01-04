@@ -34,7 +34,7 @@ function displayProj(projtype){
     let fillHTML = '';
 
     for (i=0; i<numProjects; i++){
-        fillHTML += '<a class="projimgcontainer" href="workSingle.html" onclick="storeProject(' + i + ')"><img class="projimg" src="' + projArray[projtype][i].file + '"/> </a>';
+        fillHTML += '<a class="projimgcontainer" href="workSingle.html" onclick="storeProject(' + i + ')"><img class="projimg" src="' + projArray[projtype][i].file + '"/> <p class="projtext">' + projArray[projtype][i].title + '</p> </a>';
     }
     currentProj.innerHTML = fillHTML;
 }

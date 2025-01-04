@@ -121,7 +121,7 @@ nav div{
 }
 .hero-belowmain{
     text-align: center;
-    margin-top: 8rem;
+    margin-top: 2rem;
     display: grid;
 }
 .hero-belowmain div{
@@ -174,11 +174,11 @@ nav div{
     border-radius: 1.5rem;
 }
 .hero-socialIcons{
-    color: black;
+    color: var(--light-text-color);
     height: 100%;
     display: flex;
     font-size: 40px;
-    padding: 0;
+    padding: 0rem;
 }
 .hero-socialIcons a{
     margin: 0 1rem 0 0 !important;
@@ -192,17 +192,17 @@ nav div{
     width: 100%;
 }
 .hero-quoteTextContainer{
-    padding: 1.5rem 1.5rem 1rem 1.5rem;
-    background-color: rgba(197, 233, 255, 0.267);
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    margin-top: 0;
+    background-color: rgba(199, 210, 216, 0.233);
     border: solid var(--shadow-color);
     border-radius: 2rem;
     border-width: 1px;
-    box-shadow: 10px 10px 0px var(--shadow-color);
+    box-shadow: 0px 0px 50px rgba(216, 216, 216, 0.315);
     color: var(--dark-text-color);
 }
 .quoteTextContainer{
     padding: 1.5rem 1.5rem 1rem 1.5rem;
-    margin: 2rem;
     background-color: var(--projgrid-bg-color);
     border: solid var(--shadow-color);
     border-radius: 2rem;
@@ -255,7 +255,11 @@ button:hover,.btnstyle:hover{
     transition: .3s linear all;
 }
 .hireMe{
+    display: flex;
     padding-top: 2rem;
+}
+.hireMe > a{
+    padding: 1rem 10rem;
 }
 .noShadowbutton{
     box-shadow: none;
@@ -268,14 +272,18 @@ button:hover,.btnstyle:hover{
     transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1) all;
 }
 
-.projimg{
-    /* padding: .5rem; */
+.projtext{
+    /* padding-right: .25rem; */
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(31, 31, 31);
+    text-align: center;
 }
 .projimg:hover{
-    transform: scale(105%);
-    opacity: 60%;
+    transform: scale(103%);
+    opacity: 70%;
     cursor: pointer;
-    transition: .2s linear !important;
+    transition: .2s cubic-bezier(1, 0, 0, 1) !important;
 }
 .projimgcontainer{
     overflow: hidden;
@@ -358,7 +366,7 @@ button:hover,.btnstyle:hover{
 }
 
 .contact-container{
-    display: flex;
+    width: 50vw;
     text-align: start;
     padding: 2.5rem;
     padding-bottom: 3rem;
@@ -380,24 +388,20 @@ button:hover,.btnstyle:hover{
 }
 form *{
     font-family: "neue-haas-grotesk-display", Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    padding: 1rem .25rem 1rem .25rem;
-    margin: .5rem 1rem 2rem ;
-    width: 60%;
+    font-size: 16px;
+    padding: 1rem 0 1rem 0;
+    margin: .5rem 0 2rem;
+    width: 100%;
 }
 form > p{
-    padding: .5rem 0 0 1rem;
     margin: 0;
-    font-size: 18px;
+    font-size: 20px;
     width: auto;
 }
-form textarea{
-    width: 90%;
-    padding: 1rem .25rem 1rem .25rem;
-    margin-bottom: 2rem;
+form textarea, input{
+    padding: .25rem;
 }
 form > button{
-    width: 100%;
     margin: 0;
 }
 
@@ -541,10 +545,12 @@ form > button{
     .hero-img{
         max-height: 30rem;}
     .hero-belowmain{margin-top: 3rem;}
+    .hireMe > a{padding: 1rem 4rem;}
     .projgrid{
         grid-template-columns: 1fr 1fr;
     }
     .flexbox{flex-direction: column;align-items: center;}
+    .projtext{font-size: 16px;}
     .projgridcontainer{
         margin: 2rem 5rem;
     }
@@ -574,6 +580,8 @@ form > button{
         text-align: center;
         max-width: 1000%;
     }
+    .hireMe{justify-content:center; align-items: center;}
+    .hero-socialIcons{justify-content: center; margin: .25rem;}
     .projnav{
         margin: 0 1rem;
     }
@@ -615,6 +623,7 @@ form > button{
     .hero-textTitle{font-size: 45px;}
     .hero-belowmain{display: none;}
     .hero-socialIcons{justify-content: center; padding: 1.5rem;}
+    .hireMe > a{padding: 1rem 1rem;}
     .projgridcontainer{
         margin: 2rem 1rem;
         box-shadow: none;
@@ -626,7 +635,7 @@ form > button{
         margin: .5rem 2rem;
     }
     footer{font-size: 20px;}
-    .contact-container{padding: 0;margin: 2rem .5rem; box-shadow: none;max-width: 90%;}
+    .contact-container{margin: 2rem .5rem; box-shadow: none;max-width: 90%;text-align: center;}
     form{max-width: 88vw;}
     input{width: 90%; padding: 0rem;}
     form textarea{width: 90%; padding: 0;}
