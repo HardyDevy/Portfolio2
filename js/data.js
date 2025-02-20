@@ -55,7 +55,7 @@ const branding = [
 const otherProjects = [
     {"file":'img/projects/Other/365posters/365-Day71-January14Large.jpeg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments done daily for 365 days</p>',"title":''},
     {"file":'img/projects/Other/365posters/365-Day172-May24.png',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments done daily for 365 days</p>',"title":''},
-    {"file":'img/projects/Other/365posters/365-Day216-October26.png',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments done daily for 365 days</p>',"title":''},
+    {"file":'img/projects/Other/365posters/365-Day216-October26.jpeg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments done daily for 365 days</p>',"title":''},
     {"file":'img/projects/Other/365posters/365-Day52-December9Large.jpeg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments done daily for 365 days</p>',"title":''},
     {"file":'img/projects/Other/365posters/365-Day201-July10.jpg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments done daily for 365 days</p>',"title":''},
     {"file":'img/projects/Other/365posters/365-Day9-October27Large.jpeg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments done daily for 365 days</p>',"title":''},
