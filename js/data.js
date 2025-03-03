@@ -23,14 +23,14 @@ const posters = [
     {"file":'img/projects/musicposters/365-Day150-April20.jpeg',"Description":'<p>A commisioned piece for the band The Kiwis\' live show at The Finish Line</p>',"title":'The Kiwis'},
     {"file":'img/projects/musicposters/365-Day15-Nov2Large.jpeg',"Description":'<p>A piece made through collage and mixed-media exploration, highlighting Dafna\'s new single "Want Me Bad</p>',"title":'Dafna'},
     {"file":'img/projects/musicposters/365-Day163-May15.jpg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments based on albums/songs I\'ve been listening to</p>',"title":'Jalen Ngonda'},
-    {"file":'img/projects/musicposters/365-Day218-December11.jpg',"Description":'<p>A piece of typographic expression, collage, and design experimentation for Sextile\'s North American Tour</p>',"title":'Sextile'},
-    {"file":'img/projects/musicposters/365-Day97-February16Large.jpeg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments based on albums/songs I\'ve been listening to</p>',"title":'Between Friends'},
-    {"file":'img/projects/musicposters/365-Day209-August5-SS.jpg',"Description":'<p>A piece of typographic expression, collage, and design experimentation for Cage The Elephant\'s Neon Pill Tour show at SPAC</p>',"title":'Cage The Elephant'},
-    {"file":'img/projects/musicposters/365-Day157-May1.jpg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments based on albums/songs I\'ve been listening to</p>',"title":'Arctic Monkeys'},
-    {"file":'img/projects/musicposters/365-Day50-December7Large.jpeg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments based on albums/songs I\'ve been listening to</p>',"title":'Boygenius'},
+    {"file":'img/projects/musicposters/365-Day232-March3.jpg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments based on albums/songs I\'ve been listening to</p>',"title":'Magdalen Bay'},
     {"file":'img/projects/musicposters/365-Day94-February6Large.jpeg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments based on albums/songs I\'ve been listening to</p>',"title":'Miniature Tigers'},
+    {"file":'img/projects/musicposters/365-Day157-May1.jpg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments based on albums/songs I\'ve been listening to</p>',"title":'Arctic Monkeys'},
+    {"file":'img/projects/musicposters/365-Day209-August5-SS.jpg',"Description":'<p>A piece of typographic expression, collage, and design experimentation for Cage The Elephant\'s Neon Pill Tour show at SPAC</p>',"title":'Cage The Elephant'},
+    {"file":'img/projects/musicposters/365-Day97-February16Large.jpeg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments based on albums/songs I\'ve been listening to</p>',"title":'Between Friends'},
+    {"file":'img/projects/musicposters/365-Day93-February5Large.jpeg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments based on albums/songs I\'ve been listening to</p>',"title":'Rex Orange County'},
     {"file":'img/projects/musicposters/365-Day149-April19.jpeg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments based on albums/songs I\'ve been listening to</p>',"title":'Maggie Rogers'},
-    {"file":'img/projects/musicposters/365-Day93-February5Large.jpeg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments based on albums/songs I\'ve been listening to</p>',"title":'Rex Orange County'}
+    {"file":'img/projects/musicposters/365-Day218-December11.jpg',"Description":'<p>A piece of typographic expression, collage, and design experimentation for Sextile\'s North American Tour</p>',"title":'Sextile'},
     ]
 
 const merch = [
