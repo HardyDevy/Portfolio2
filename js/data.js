@@ -14,6 +14,7 @@ const NorthBloom = ['img/projects/musicposters/NorthBloom ReallyTinyTour Poster 
 const RussettPR = ['img/projects/branding/russettpr/Hardy PDF Portfolio-11 copy.png','img/projects/branding/russettpr/Hardy PDF Portfolio-12 copy.png','img/projects/branding/russettpr/Hardy PDF Portfolio-13 copy.png','img/projects/branding/russettpr/Hardy PDF Portfolio-14 copy.png','img/projects/branding/russettpr/Hardy PDF Portfolio-15 copy.png']
 const BillieEilish = ['img/projects/merch/Billie Eilish Tee Yellow Text Blue Shirt.jpg','img/projects/merch/Billie Eilish Tee White Text Blue Shirt.jpg']
 const JalenNgonda = ['img/projects/merch/JalenNgondaMockup_Closeup.jpg','img/projects/merch/JalenNgondaDesign_Closeup.jpg']
+const GreerBigSmile = ['img/projects/merch/Greer Big Smile/Greer Big Smile Shirt Design.jpg','img/projects/merch/Greer Big Smile/Greer Big Smile Shirt copy.jpg']
 // const  = ['']
 
 
@@ -35,10 +36,11 @@ const posters = [
 
 const merch = [
     {"file":'img/projects/merch/MidnightKisses/Midnight Kisses_showcase.png',"Description":'<p>A commisioned piece for singer/songwriter Amanda Chloe\'s new song "Midnight Kisses"</p>',"title":'Amanda Chloe',"imgs":MidnightKisses},
+    {"file":'img/projects/merch/Greer Big Smile/Greer Big Smile Shirt png.png',"Description":'<p>A piece for singer/songwriter Greer\'s new album "Big Smile"</p>',"title":'Greer \'Big Smile\'',"imgs":GreerBigSmile},
     {"file":'img/projects/merch/JalenNgondaMockup.png',"Description":'<p>A piece of original merchandise created for Jalen Ngonda\'s album \"Come Around and Love Me\"</p>',"title":'Jalen Ngonda',"imgs":JalenNgonda},
     {"file":'img/projects/merch/Capstone/capstonethumbnail.jpg',"Description":'<p>In my senior capstone project at Clarkson University, I crafted branding for a fictional record label and three bands.</p><p> I designed logos, business cards, posters, and album covers, before bringing these designs to life in physical form.</p>',"title":'Capstone Records',"imgs":Capstone},
     {"file":'img/projects/merch/GoldenKnightTennisLogo.png',"Description":'<p>Commisioned merchandise created for Clarkson University\'s Tennis Club</p>',"title":'Clarkson Golden Knights',"imgs":GoldenKnight},
-    {"file":'img/projects/merch/GreerMockupBACK.png',"Description":'<p>A piece of original merchandise based on Greer\'s EP \"Happy People\"</p>',"title":'Greer',"imgs":Greer},
+    {"file":'img/projects/merch/GreerMockupBACK.png',"Description":'<p>A piece of original merchandise based on Greer\'s EP \"Happy People\"</p>',"title":'Happy People',"imgs":Greer},
     {"file":'img/projects/merch/TheLastDinnerPartyMockupCOLOR-FRONT.png',"Description":'<p>A piece of original merchandise based on The Last Dinner Party\'s album \"Prelude To Ecstasy\"</p>',"title":'The Last Dinner Party',"imgs":TheLastDinnerParty},
     {"file":'img/projects/merch/BillieEilishMockup.png',"Description":'<p>A piece of original merchandise based on Billie Eilish\'s album \"Hit Me Hard and Soft\"</p>',"title":'Billie Eilish',"imgs":BillieEilish},
 ]
