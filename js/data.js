@@ -15,6 +15,7 @@ const RussettPR = ['img/projects/branding/russettpr/Hardy PDF Portfolio-11 copy.
 const BillieEilish = ['img/projects/merch/Billie Eilish Tee Yellow Text Blue Shirt.jpg','img/projects/merch/Billie Eilish Tee White Text Blue Shirt.jpg']
 const JalenNgonda = ['img/projects/merch/JalenNgondaMockup_Closeup.jpg','img/projects/merch/JalenNgondaDesign_Closeup.jpg']
 const GreerBigSmile = ['img/projects/merch/Greer Big Smile/Greer Big Smile Shirt Design.jpg','img/projects/merch/Greer Big Smile/Greer Big Smile Shirt copy.jpg']
+const CapitolHillBlockParty = ['img/projects/merch/CHBP_shirt_FRONT.jpg']
 const DanceWater = ['img/projects/branding/DanceWater/DanceWater Logo 1.jpg','img/projects/branding/DanceWater/DanceWater Logo 2.jpg','img/projects/branding/DanceWater/DanceWater Logo Splash.jpg','img/projects/branding/DanceWater/DanceWater Signature 1.jpg','img/projects/branding/DanceWater/DanceWater Signature 2.jpg']
 // const  = ['']
 
@@ -36,8 +37,9 @@ const posters = [
     ]
 
 const merch = [
+    {"file":'img/projects/merch/CHBP_shirt_BACK.jpg',"Description":'<p>An original tee desigend for Capitol Hill Block Party 2025.</p>',"title":'Capitol Hill Block Party',"imgs":CapitolHillBlockParty},
     {"file":'img/projects/merch/MidnightKisses/Midnight Kisses_showcase.png',"Description":'<p>A commisioned piece for singer/songwriter Amanda Chloe\'s new song "Midnight Kisses"</p>',"title":'Amanda Chloe',"imgs":MidnightKisses},
-    {"file":'img/projects/merch/Greer Big Smile/Greer Big Smile Shirt png.png',"Description":'<p>A piece for singer/songwriter Greer\'s new album "Big Smile"</p>',"title":'Greer \'Big Smile\'',"imgs":GreerBigSmile},
+    {"file":'img/projects/merch/Greer Big Smile/Greer Big Smile Shirt png.png',"Description":'<p>A piece of original merchandise designed for Greer\'s new album "Big Smile"</p>',"title":'Greer \'Big Smile\'',"imgs":GreerBigSmile},
     {"file":'img/projects/merch/JalenNgondaMockup.png',"Description":'<p>A piece of original merchandise created for Jalen Ngonda\'s album \"Come Around and Love Me\"</p>',"title":'Jalen Ngonda',"imgs":JalenNgonda},
     {"file":'img/projects/merch/Capstone/capstonethumbnail.jpg',"Description":'<p>In my senior capstone project at Clarkson University, I crafted branding for a fictional record label and three bands.</p><p> I designed logos, business cards, posters, and album covers, before bringing these designs to life in physical form.</p>',"title":'Capstone Records',"imgs":Capstone},
     {"file":'img/projects/merch/GoldenKnightTennisLogo.png',"Description":'<p>Commisioned merchandise created for Clarkson University\'s Tennis Club</p>',"title":'Clarkson Golden Knights',"imgs":GoldenKnight},

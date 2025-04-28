@@ -443,6 +443,7 @@ form > button{
     
 }
 .work-textcontainer{
+    min-width: 30rem;
     max-width: 40rem;
     padding-top: 2rem;
     margin-top: 5rem;
