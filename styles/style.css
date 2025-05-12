@@ -203,6 +203,7 @@ nav div{
 }
 .quoteTextContainer{
     padding: 1.5rem 1.5rem 1rem 1.5rem;
+    margin: 1rem 0;
     background-color: var(--projgrid-bg-color);
     border: solid var(--shadow-color);
     border-radius: 2rem;
