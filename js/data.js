@@ -33,8 +33,8 @@ const posters = [
     {"file":'img/projects/musicposters/365-Day157-May1.jpg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments based on albums/songs I\'ve been listening to</p>',"title":'Arctic Monkeys'},
     {"file":'img/projects/musicposters/365-Day209-August5-SS.jpg',"Description":'<p>A piece of typographic expression, collage, and design experimentation for Cage The Elephant\'s Neon Pill Tour show at SPAC</p>',"title":'Cage The Elephant'},
     {"file":'img/projects/musicposters/365-Day97-February16Large.jpeg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments based on albums/songs I\'ve been listening to</p>',"title":'Between Friends'},
+    {"file":'img/projects/musicposters/365-Day78-January21.jpg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments based on albums/songs I\'ve been listening to</p>',"title":'Clairo'},
     {"file":'img/projects/musicposters/365-Day93-February5Large.jpeg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments based on albums/songs I\'ve been listening to</p>',"title":'Rex Orange County'},
-    {"file":'img/projects/musicposters/365-Day149-April19.jpeg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments based on albums/songs I\'ve been listening to</p>',"title":'Maggie Rogers'},
     ]
 
 const merch = [
