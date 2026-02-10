@@ -444,7 +444,7 @@ form > button{
     
 }
 .work-textcontainer{
-    min-width: 30rem;
+    min-width: 30vw;
     max-width: 40rem;
     padding-top: 2rem;
     margin-top: 5rem;
@@ -562,7 +562,7 @@ form > button{
     }
     .work-container-outer{max-width: 100%;}
     .work-container-inner{flex-direction: column-reverse; align-items: center;}
-    .work-textcontainer{text-align: center; padding-top: 0;margin-top: 1rem; position:inherit; border: none;}
+    .work-textcontainer{text-align: center; padding-top: 0;margin-top: 1rem; min-width: 70vw; max-width: 90vw; position:inherit; border: none;}
 }
 
 @media (max-width: 1100px) {
