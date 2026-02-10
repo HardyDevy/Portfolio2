@@ -56,7 +56,7 @@ function openProjPage(){
     if (projArray[projectType][projectIndex].imgs != null){
         for(i=0; i < (projArray[projectType][projectIndex].imgs).length; i++){
             if(projArray[projectType][projectIndex].imgs[i].includes(".mp4")){
-                imgContainer.innerHTML += '<video width="95%" height="500vh" style="padding: 2rem 1rem;" autoplay loop muted> <source src="' + projArray[projectType][projectIndex].imgs[i] + '" type="video/mp4"> Your browser does not support the video tag." class="work-vid"/></video> ';
+                imgContainer.innerHTML += '<video width="90%" height="500vh" style="padding: 2rem 1rem;" autoplay loop muted> <source src="' + projArray[projectType][projectIndex].imgs[i] + '" type="video/mp4"> Your browser does not support the video tag." class="work-vid"/></video> ';
             }
             else
                 imgContainer.innerHTML += '<img src="' + projArray[projectType][projectIndex].imgs[i] + '" class="work-img"/>';
