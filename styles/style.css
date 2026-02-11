@@ -16,7 +16,7 @@ body{
     height: 100vh; display: flex; flex-direction: column;
     background-color: var(--main-bg-color);
     font-family: neue-haas-grotesk-display, sans-serif;
-    font-weight: 700;
+    font-weight: 500;
     font-style: normal;
     font-size: 24px;
     text-decoration: none;
@@ -155,7 +155,7 @@ nav div{
 .hero-textSubtitle{
     font-weight: 700;
     font-style: normal;
-    font-size: 32px;
+    font-size: 45px;
 }
 .hero-textTiny{
     font-weight: 700;
@@ -165,7 +165,7 @@ nav div{
 .hero-text{
     font-weight: 700;
     font-style: normal;
-    font-size:  24px;
+    font-size:  35px;
 }
 .hero-imgcontainer{
     padding: 1rem 1rem .7rem 1rem;
@@ -359,9 +359,6 @@ button:hover,.btnstyle:hover{
     max-width: 80rem;
 }
 .textcontainer a{
-    font-weight: 600;
-    font-style: normal;
-    font-size:  32px;
     text-decoration: underline;
     text-decoration-color: var(--main-nav-color);
     text-decoration-thickness: 5px;
@@ -494,7 +491,7 @@ form > button{
     display: none;
 }
 
-@media (max-width: 2200px) {
+@media (max-width: 2000px) {
     .mainnav{
         padding: .5rem 10rem;
     }
@@ -504,14 +501,14 @@ form > button{
     .hero-main{
         padding: 4rem 2rem 2rem 2rem;}
     .hero-textTitle{
-        font-size: 80px;
+        font-size: 90px;
         line-height: 110%;}
     .hero-textSubtitle{
-        font-size: 24px;}
+        font-size: 35px;}
     .hero-text{
-        font-size: 28px;}
+        font-size: 24px;}
     .hero-img{
-        max-height: 35rem;}
+        max-height: 40rem;}
 }
 
 @media (max-width: 1732px) {
@@ -524,7 +521,7 @@ form > button{
     .hero-textTitle{
         font-size: 80px;}
     .hero-textSubtitle{
-        font-size: 18px;}
+        font-size: 28px;}
     .hero-text{
         font-size: 24px;}
     .hero-img{
@@ -683,9 +680,4 @@ grid-template-columns: repeat(auto-fill, 85%);
         margin: 1rem;
         text-align: center;
     }
-}
-
-@media (min-width: 2200px) {
-    .hero-text{
-        font-size: 35px;}
 }
