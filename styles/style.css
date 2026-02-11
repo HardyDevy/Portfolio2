@@ -229,13 +229,17 @@ nav div{
 }
 
 footer{
-    margin: 3.5rem 1rem 2rem;
+    padding: .5rem;
+    margin: 3.5rem 0rem 0rem;
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     text-align: center;
     font-style: italic;
     font-weight: 700;
+    background-color: var(--main-nav-color);
+    border-top: solid var(--dark-text-color);
+    border-width: .1rem;
 }
 footer > *{
     margin: .25rem 0;
@@ -457,7 +461,7 @@ form > button{
     padding-top: 2rem;
     margin-top: 5rem;
     position: sticky;
-    top: 3rem;
+    top: 6rem;
     background-color: var(--projgrid-bg-color);
     border: solid var(--shadow-color);
     border-radius: 2rem;
