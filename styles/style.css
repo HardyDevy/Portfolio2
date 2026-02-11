@@ -15,8 +15,8 @@
 body{
     height: 100vh; display: flex; flex-direction: column;
     background-color: var(--main-bg-color);
-    font-family: "neue-haas-grotesk-display", sans-serif;
-    font-weight: 500;
+    font-family: neue-haas-grotesk-display, sans-serif;
+    font-weight: 700;
     font-style: normal;
     font-size: 24px;
     text-decoration: none;
@@ -67,6 +67,9 @@ nav div{
     padding: 0rem 10rem .5rem 10rem;
     border-bottom: solid var(--dark-text-color);
     border-width: .25rem;
+    position: sticky;
+    top: 0rem;
+    z-index: 2;
 }
 .mainnav a{
     margin-bottom: 0;
@@ -162,7 +165,7 @@ nav div{
     font-size:  24px;
 }
 .hero-imgcontainer{
-    padding: 1.5rem;
+    padding: 1rem 1rem .7rem 1rem;
     background-color: var(--projgrid-bg-color);
     border: solid var(--shadow-color);
     border-radius: 2rem;
@@ -171,7 +174,7 @@ nav div{
 }
 .hero-img{
     max-height: 50rem;
-    border-radius: 1.5rem;
+    border-radius: 1.3rem;
 }
 .hero-socialIcons{
     color: var(--light-text-color);
@@ -274,11 +277,11 @@ button:hover,.btnstyle:hover{
 }
 
 .projtext{
-    /* padding-right: .25rem; */
     font-weight: 500;
     font-size: 18px;
     color: rgb(31, 31, 31);
-    text-align: center;
+    padding-right: .5rem;
+    text-align: right
 }
 .projimg:hover{
     transform: scale(103%);
@@ -288,6 +291,7 @@ button:hover,.btnstyle:hover{
 }
 .projimgcontainer{
     overflow: hidden;
+    margin-bottom: 0;
 }
 .projgridcontainer{
     background-color: var(--projgrid-bg-color);
@@ -303,7 +307,8 @@ button:hover,.btnstyle:hover{
 .projgrid{
     display: grid;
     grid-gap: 1.5rem;
-    grid-template-columns: repeat(auto-fill, 32%);
+    grid-template-columns: repeat(auto-fill, 30%);
+    justify-content: center;
 }
 .projModalContainer{
     position: fixed;
@@ -490,7 +495,7 @@ form > button{
         max-height: 5.5rem;
     }
     .hero-main{
-        padding: 2rem;}
+        padding: 4rem 2rem 2rem 2rem;}
     .hero-textTitle{
         font-size: 80px;
         line-height: 110%;}
@@ -578,11 +583,11 @@ form > button{
         width: auto;
     }
     .hero{height: auto; margin-bottom: 8rem;}
-    .hero-main{flex-direction: column;padding: 4rem;margin: auto 0;}
+    .hero-main{flex-direction: column;padding: 2rem;margin: auto 0;}
     
     .hero-textcontainer{
         text-align: center;
-        max-width: 1000%;
+        max-width: 100%;
     }
     .hireMe{justify-content:center; align-items: center;}
     .hero-socialIcons{justify-content: center; margin: .25rem;}
@@ -610,6 +615,9 @@ form > button{
     nav div{
         display:inline;
     }
+    .mainnav{
+        position: relative;
+    }
     .mainnav-directions{
         width: 100%;
         display: flex;
@@ -624,7 +632,7 @@ form > button{
         width: auto;
     }
     .hero{margin: 0;}
-    .hero-textTitle{font-size: 45px;}
+    .hero-textTitle{font-size: 40px;}
     .hero-belowmain{display: none;}
     .hero-socialIcons{justify-content: center; padding: 1.5rem;}
     .hireMe > a{padding: 1rem 1rem;}
@@ -636,6 +644,7 @@ form > button{
         grid-template-columns: 1fr;
     }
     button, .btnstyle{
+        width: 70vw;
         margin: .5rem 2rem;
     }
     footer{font-size: 20px;}
