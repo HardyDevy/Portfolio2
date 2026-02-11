@@ -31,15 +31,19 @@ a{
     text-decoration: none;
     color: var(--text-color);
 }
-.abovenavtext{
-    font-weight: 700;
-    font-size: 16px;
-    padding-top: 1rem;
-    padding-bottom: 0;
-    background-color: var(--main-nav-color);
+.abovenavtextcontainer{
+    padding: .5rem 0;
+    background-color: var(--main-bg-color);
+    border-bottom: solid var(--dark-text-color);
+    border-width: .1rem;
     justify-content: space-around;
     align-items: center;
     text-align: center;
+
+}
+.abovenavtext{
+    font-weight: 700;
+    font-size: 16px;
 }
 
 img{
@@ -48,10 +52,9 @@ img{
 }
 .svg{
     width: 100%;
-    height: 100px;
+    height: 80px;
     margin-bottom: 0;
 }
-
 
 nav{
     display: flex;
@@ -64,9 +67,9 @@ nav div{
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    padding: 0rem 10rem .5rem 10rem;
+    padding: .5rem 10rem;
     border-bottom: solid var(--dark-text-color);
-    border-width: .25rem;
+    border-width: .1rem;
     position: sticky;
     top: 0rem;
     z-index: 2;
@@ -489,7 +492,7 @@ form > button{
 
 @media (max-width: 2200px) {
     .mainnav{
-        padding: .5rem 1rem;
+        padding: .5rem 10rem;
     }
     .mainnav-logo{
         max-height: 5.5rem;
@@ -560,7 +563,10 @@ form > button{
     .flexbox{flex-direction: column;align-items: center;}
     .projtext{font-size: 16px;}
     .projgridcontainer{
-        margin: 2rem 5rem;
+        margin: 2rem 8rem;
+    }
+    .projgrid{
+        grid-template-columns: repeat(auto-fill, 30%);
     }
     button, .btnstyle{
         padding: .75rem 1.5rem;
@@ -641,7 +647,7 @@ form > button{
         box-shadow: none;
     }
     .projgrid{
-        grid-template-columns: 1fr;
+grid-template-columns: repeat(auto-fill, 85%);
     }
     button, .btnstyle{
         width: 70vw;
