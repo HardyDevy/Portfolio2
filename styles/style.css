@@ -1,6 +1,7 @@
 :root{
     --main-bg-color: rgb(245, 213, 215);
     --main-nav-color: rgb(255, 152, 178);
+    --other-color: rgba(255,200,250,1);
     --projgrid-bg-color: rgb(245, 241, 235);
     --shadow-color:rgb(20, 20, 20);
     --dark-text-color:rgb(20, 20, 20);
@@ -119,7 +120,8 @@ nav div{
     color: var(--light-text-color);
 }
 .hero-main{
-    padding: 5rem;
+    min-height: 80vh;
+    padding: 0rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -128,7 +130,13 @@ nav div{
 .hero-belowmain{
     text-align: center;
     margin-top: 2rem;
-    display: grid;
+    padding: 2rem 0;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    border: solid var(--dark-text-color);
+    border-width: .1rem 0;
+    background-color: var(--other-color);
 }
 .hero-belowmain div{
     margin: 1.5rem auto !important;
@@ -200,11 +208,6 @@ nav div{
 .hero-quoteTextContainer{
     padding: 1.5rem 1.5rem 1.5rem 1.5rem;
     margin-top: 0;
-    background-color: rgba(199, 210, 216, 0.233);
-    border: solid var(--shadow-color);
-    border-radius: 2rem;
-    border-width: 1px;
-    box-shadow: 0px 0px 50px rgba(216, 216, 216, 0.315);
     color: var(--dark-text-color);
 }
 .quoteTextContainer{
