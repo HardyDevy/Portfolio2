@@ -26,8 +26,8 @@ const CarolineCarter = ['img/projects/branding/CarolineCarter/Superstar type 2.j
 const posters = [
     {"file":'img/projects/musicposters/NorthBloom ReallyTinyTour Poster.jpg',"Description":'<p>A commisioned piece for singer/songwriter NorthBloom\'s "Really Tiny Tour"</p>',"title":'North Bloom',"imgs":NorthBloom},
     {"file":'img/projects/musicposters/365-Day150-April20.jpeg',"Description":'<p>A commisioned piece for the band The Kiwis\' live show at The Finish Line</p>',"title":'The Kiwis'},
-    {"file":'img/projects/musicposters/365-Day15-Nov2Large.jpeg',"Description":'<p>A piece made through collage and mixed-media exploration, highlighting Dafna\'s new single "Want Me Bad</p>',"title":'Dafna'},
-    {"file":'img/projects/musicposters/365-Day42-November29.png',"Description":'<p>A commisioned piece for The Kiwis\' new Album Release</p>',"title":'The Kiwis'},
+    {"file":'img/projects/musicposters/365-Day15-Nov2Large.jpeg',"Description":'<p>A piece made through collage and mixed-media exploration, highlighting Dafna\'s new single "Want Me Bad"</p>',"title":'Dafna'},
+    {"file":'img/projects/musicposters/365-Day42-November29.png',"Description":'<p>A commisioned piece for The Kiwis\' new album release</p>',"title":'The Kiwis'},
     {"file":'img/projects/musicposters/365-Day232-March3.jpg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments based on albums/songs I\'ve been listening to</p>',"title":'Magdalen Bay'},
     {"file":'img/projects/musicposters/365-Day163-May15.jpg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments based on albums/songs I\'ve been listening to</p>',"title":'Jalen Ngonda'},
     {"file":'img/projects/musicposters/365-Day94-February6Large.jpeg',"Description":'<p>A piece from a collection of typographic expression, collage, and design experiments based on albums/songs I\'ve been listening to</p>',"title":'Miniature Tigers'},

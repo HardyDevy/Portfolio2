@@ -475,6 +475,11 @@ form > button{
     cursor: pointer;
     text-decoration: none !important;
     font-size: 20px !important;
+    margin: .5rem;
+}
+
+hr{
+    margin-bottom: 1.5rem;
 }
 
 .flexbox{
@@ -649,22 +654,24 @@ form > button{
     .projgridcontainer{
         margin: 2rem 1rem;
         box-shadow: none;
+        border-radius: .5rem;
     }
     .projgrid{
-grid-template-columns: repeat(auto-fill, 85%);
+        grid-template-columns: repeat(auto-fill, 95%);
     }
     button, .btnstyle{
         width: 70vw;
         margin: .5rem 2rem;
+        border-radius: .5rem;
     }
     footer{font-size: 20px;}
     .contact-container{margin: 2rem .5rem; box-shadow: none;max-width: 90%;text-align: center;}
     form{max-width: 88vw;}
     input{width: 90%; padding: 0rem;}
     form textarea{width: 90%; padding: 0;}
-    .work-container-outer{max-width: 90vw; margin: 1rem; padding: .5rem;}
+    .work-container-outer{max-width: 90vw; margin: 1rem; padding: .5rem;border-radius: .5rem;}
     .work-ImgContainer{max-width:100%}
-    .work-img{max-width:none; width: 100%;}
+    .work-img{max-width:none; width: 100%; padding: .5rem;}
     .otherProjects{flex-direction: column;}
     .textcontainer{
         padding: .5rem .5rem;}
@@ -674,7 +681,11 @@ grid-template-columns: repeat(auto-fill, 85%);
         text-align: start;
     }
     .textcontainer a{
-        font-size: 30px;
+        font-size: 25px;
+        padding-top: 1rem;
+    }
+    .textcontainer p{
+        font-size: 18px;
         padding-top: 1rem;
     }
     form > button{
