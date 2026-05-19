@@ -13,6 +13,10 @@
     transition: .3s linear !important;
 }
 
+html{
+    scroll-padding-block-start: 8.5rem;
+}
+
 body{
     height: 100vh; display: flex; flex-direction: column;
     background-color: var(--main-bg-color);
