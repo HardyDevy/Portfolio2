@@ -1,7 +1,7 @@
 :root{
     --main-bg-color: rgb(245, 213, 215);
     --main-nav-color: rgb(255, 152, 178);
-    --other-color: rgba(255,200,250,1);
+    --other-color: rgb(203, 218, 240);
     --projgrid-bg-color: rgb(245, 241, 235);
     --shadow-color:rgb(20, 20, 20);
     --dark-text-color:rgb(20, 20, 20);
@@ -27,6 +27,9 @@ body{
     text-decoration: none;
     color: var(--text-color);
     margin: 0;
+}
+.othercolorbg{
+    background-color: var(--other-color)
 }
 
 p, a, h1, h2, h3{
@@ -80,11 +83,15 @@ nav div{
     z-index: 2;
 }
 .mainnav a{
-    margin-bottom: 0;
+    margin: .2rem 0;
 }
 .mainnav-logo{
     justify-content: flex-start;
+    padding: 0 1rem 0 .5rem;
     width: 50%;
+    font-weight: 700;
+    font-size: 36px;
+    font-style: italic !important;
 }
 .mainnav-singlework > .mainnav-logo > a > img{
     height: 3rem;
@@ -99,7 +106,6 @@ nav div{
 }
 .mainnav-directions > a{
     padding: 0 1rem 0 .5rem;
-    margin-top: 0;
 }
 .mainnav-directions > a > i{
     padding: 0 .5rem 0 1rem;
@@ -111,7 +117,7 @@ nav div{
 .workNav img{ max-height: 4rem}
 .projnav{
     justify-content: space-around;
-    margin: 9rem 20% .25rem 20%;
+    margin: 4rem 20% .25rem 20%;
     padding-top: 1.5rem;
 }
 
@@ -189,6 +195,10 @@ nav div{
 }
 .hero-img{
     max-height: 50rem;
+    border-radius: 1.3rem;
+}
+.about-img{
+    max-height: 35rem;
     border-radius: 1.3rem;
 }
 .hero-socialIcons{
@@ -321,7 +331,7 @@ button:hover,.btnstyle:hover{
 .projgrid{
     display: grid;
     grid-gap: 1.5rem;
-    grid-template-columns: repeat(auto-fill, 30%);
+    grid-template-columns: repeat(auto-fill, 32%);
     justify-content: center;
 }
 .projModalContainer{
@@ -359,7 +369,6 @@ button:hover,.btnstyle:hover{
 }
 .textcontainer p,a{
     font-weight: 600;
-    font-style: normal;
     line-height: 140%;
     margin-top: .5rem;
     margin-bottom: 2rem;
@@ -381,7 +390,12 @@ button:hover,.btnstyle:hover{
     border-width: 1px;
     box-shadow: 10px 10px 0px var(--shadow-color);
 }
-
+.about-container{
+    display: flex;
+    align-items: center;
+    width: 70vw;
+    padding: 2.5rem;
+}
 .contact-container{
     width: 50vw;
     text-align: start;
@@ -406,8 +420,8 @@ button:hover,.btnstyle:hover{
 form *{
     font-family: "neue-haas-grotesk-display", Arial, Helvetica, sans-serif;
     font-size: 16px;
-    padding: 1rem 0 1rem 0;
-    margin: .5rem 0 2rem;
+    padding: .5rem 0;
+    margin: .25rem 0 1.5rem;
     width: 100%;
 }
 form > p{
@@ -425,18 +439,12 @@ form > button{
 .work-container-outer{
     padding: 0rem 2rem 0 2rem;
     margin: 1rem;
-    background-color: var(--projgrid-bg-color);
-    border: solid var(--shadow-color);
-    border-radius: 2rem;
-    border-width: 1px;
-    min-height: 50%;
     display: flex;
     flex-direction: column;
 }
 .work-container-inner{
     display: flex;
     align-items: start;
-    /* max-width: 100rem; */
 }
 .work-ImgContainer{
     border-radius: 0;
@@ -444,11 +452,15 @@ form > button{
     flex-direction: column;
     align-items: center;
     max-width: 50vw;
+    
+    margin: 0 2rem;
+    border: solid var(--shadow-color);
+    border-width: 0 1px 0 0;
 }
 .work-img{
     max-width: 45vw;
-    max-height: 80vh;
-    padding: 2rem 1rem;
+    max-height: 70vh;
+    margin: 2rem 4rem;
     width: auto;
     height: auto;
 }
@@ -463,9 +475,8 @@ form > button{
     min-width: 30vw;
     max-width: 40rem;
     padding-top: 2rem;
-    margin-top: 5rem;
     position: sticky;
-    top: 6rem;
+    top: 7rem;
     background-color: var(--projgrid-bg-color);
     border: solid var(--shadow-color);
     border-radius: 2rem;
@@ -511,7 +522,7 @@ hr{
         max-height: 5.5rem;
     }
     .hero-main{
-        padding: 4rem 2rem 2rem 2rem;}
+        padding: 2rem 2rem 0rem 2rem;}
     .hero-textTitle{
         font-size: 90px;
         line-height: 110%;}
