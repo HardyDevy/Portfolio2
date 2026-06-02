@@ -122,16 +122,18 @@ nav div{
 }
 
 .hero{
-    background-image: url("../img/BlueToPinkGradient.jpg");
     max-height: 120rem;
-    background-position: bottom;
+    background-image: url("../img/BlueToPinkGradient.jpg");
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: var(--other-color);
     color: var(--light-text-color);
+    border-bottom: solid var(--dark-text-color);
+    border-width: .1rem;
 }
 .hero-main{
     min-height: 80vh;
-    padding: 0rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -199,6 +201,7 @@ nav div{
 }
 .about-img{
     max-height: 35rem;
+    width: auto;
     border-radius: 1.3rem;
 }
 .hero-socialIcons{
@@ -522,7 +525,8 @@ hr{
         max-height: 5.5rem;
     }
     .hero-main{
-        padding: 2rem 2rem 0rem 2rem;}
+        padding: .5rem .5rem 1rem .5rem;
+    }
     .hero-textTitle{
         font-size: 90px;
         line-height: 110%;}
@@ -542,11 +546,11 @@ hr{
     .hero-main{
         padding: 2rem;}
     .hero-textTitle{
-        font-size: 80px;}
+        font-size: 60px;}
     .hero-textSubtitle{
-        font-size: 28px;}
+        font-size: 26px;}
     .hero-text{
-        font-size: 24px;}
+        font-size: 22px;}
     .hero-img{
         max-height: 30rem;}
     .projnav{
@@ -595,19 +599,17 @@ hr{
     button, .btnstyle{
         padding: .75rem 1.5rem;
     }
-    .work-container-outer{max-width: 100%;}
-    .work-container-inner{flex-direction: column-reverse; align-items: center;}
-    .work-textcontainer{text-align: center; padding-top: 0;margin-top: 1rem; min-width: 70vw; max-width: 90vw; position:inherit; border: none;}
+    /* .work-container-outer{max-width: 100%;}
+    .work-textcontainer{text-align: center; padding-top: 0;margin-top: 1rem; min-width: 70vw; max-width: 90vw; position:inherit; border: none;} */
+}
+
+@media (max-width: 1280px) {
+    .otherProjects{flex-direction: column; align-items: center;}
 }
 
 @media (max-width: 1100px) {
     .mainnav{
         justify-content: space-between;
-    }
-    .mainnav-logo{
-        height: 5rem;
-        /* padding: .75rem 0; */
-        width: auto;
     }
     .mainnav-directions{
         width: auto;
@@ -634,6 +636,10 @@ hr{
     h2{text-align: center;}
     .container{box-shadow: none;}
     .scrollTextContainer{display: none;}
+    .work-ImgContainer{width: 100%; border: none;}
+    .work-container-inner{flex-direction: column-reverse; align-items: center;}
+    .work-textcontainer{position:static;}
+    .about-img{max-width:20rem; width: 100%;}
 }
 
 @media (max-width: 900px) {
@@ -654,13 +660,9 @@ hr{
         flex-direction: column;
     }
     .mainnav-directions > a{
-        padding: .5rem 0;
+        padding: .25rem 0;
     }
-    .mainnav-logo{
-        height: 5rem;
-        padding: .5rem 0;
-        width: auto;
-    }
+
     .hero{margin: 0;}
     .hero-textTitle{font-size: 40px;}
     .hero-belowmain{display: none;}
@@ -685,28 +687,29 @@ hr{
     input{width: 90%; padding: 0rem;}
     form textarea{width: 90%; padding: 0;}
     .work-container-outer{max-width: 90vw; margin: 1rem; padding: .5rem;border-radius: .5rem;}
-    .work-ImgContainer{max-width:100%}
-    .work-img{max-width:none; width: 100%; padding: .5rem;}
+    
+    .about-img{max-width:20rem; width: 100%;}
     .otherProjects{flex-direction: column;}
     .textcontainer{
-        padding: .5rem .5rem;}
+        padding: 1rem 2rem;
+    }
     .textcontainer h2{
         font-size: 32px;
         padding-top: 1rem;
-        text-align: start;
     }
     .textcontainer a{
-        font-size: 25px;
-        padding-top: 1rem;
+        padding-top: 0rem;
     }
     .textcontainer p{
         font-size: 18px;
-        padding-top: 1rem;
     }
     form > button{
         width: 90%;
-        padding: 1rem 0 !important;
+        padding: 1rem .5rem;
         margin: 1rem;
-        text-align: center;
+        text-align: start;
+    }
+    form > select{
+        padding: .25rem;
     }
 }
