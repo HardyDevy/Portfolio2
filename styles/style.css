@@ -87,8 +87,7 @@ nav div{
 }
 .mainnav-logo{
     justify-content: flex-start;
-    padding: 0 1rem 0 .5rem;
-    width: 50%;
+    padding-top: .5rem;
     font-weight: 700;
     font-size: 36px;
     font-style: italic !important;
@@ -614,8 +613,16 @@ hr{
     .mainnav-directions{
         width: auto;
     }
-    .hero{height: auto; margin-bottom: 8rem;}
-    .hero-main{flex-direction: column;padding: 2rem;margin: auto 0;}
+    .hero{
+        height: auto;
+        margin-bottom: 8rem;
+        border: none;
+    }
+    .hero-main{
+        flex-direction: column;
+        padding: 2rem;
+        margin: auto 0;
+    }
     
     .hero-textcontainer{
         text-align: center;
@@ -637,9 +644,13 @@ hr{
     .container{box-shadow: none;}
     .scrollTextContainer{display: none;}
     .work-ImgContainer{width: 100%; border: none;}
+    .work-img{
+        max-width: 85vw;
+        height: auto;
+    }
     .work-container-inner{flex-direction: column-reverse; align-items: center;}
     .work-textcontainer{position:static;}
-    .about-img{max-width:20rem; width: 100%;}
+    .about-img{max-width:15rem; height: 100%;}
 }
 
 @media (max-width: 900px) {
@@ -687,8 +698,6 @@ hr{
     input{width: 90%; padding: 0rem;}
     form textarea{width: 90%; padding: 0;}
     .work-container-outer{max-width: 90vw; margin: 1rem; padding: .5rem;border-radius: .5rem;}
-    
-    .about-img{max-width:20rem; width: 100%;}
     .otherProjects{flex-direction: column;}
     .textcontainer{
         padding: 1rem 2rem;
