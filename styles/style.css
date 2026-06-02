@@ -652,7 +652,7 @@ hr{
     }
     .work-container-inner{flex-direction: column-reverse; align-items: center;}
     .work-textcontainer{position:static;}
-    .about-img{max-width:15rem; height: 100%;}
+    .about-img{max-width:15rem; height: auto;}
 }
 
 @media (max-width: 900px) {
